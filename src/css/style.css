@@ -15,6 +15,30 @@ html {
     height: 100%;
 }
 
+.header {
+    flex-shrink: 0;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: red;
+}
+
+.nav {
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    margin-left: 15px;
+    flex-shrink: 0;
+}
+
 footer {
     display: flex;
     /* NEW, Spec - Opera 12.1, Firefox 20+ */
